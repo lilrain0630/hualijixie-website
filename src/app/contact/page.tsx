@@ -4,9 +4,9 @@ import { useState } from 'react'
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
-    name: '',
+    name: '绍兴华力机械科技有限公司',
     email: '',
-    phone: '',
+    phone: '15221695185',
     company: '',
     message: '',
   })

@@ -75,15 +75,11 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li>
                 <p className="text-gray-400">电话</p>
-                <p className="text-white">待填写</p>
-              </li>
-              <li>
-                <p className="text-gray-400">邮箱</p>
-                <p className="text-white">待填写</p>
+                <p className="text-white font-semibold">15221695185</p>
               </li>
               <li>
                 <p className="text-gray-400">地址</p>
-                <p className="text-white">绍兴市</p>
+                <p className="text-white text-xs leading-relaxed">浙江省绍兴市越城区马山街道启圣路</p>
               </li>
             </ul>
           </div>
@@ -102,7 +98,7 @@ export default function Footer() {
               <a href="#" className="text-sm hover:text-white transition-colors">
                 用户协议
               </a>
-              <a href="#" className="text-sm hover:text-white transition-colors">
+              <a href="/contact" className="text-sm hover:text-white transition-colors">
                 联系我们
               </a>
             </div>
